@@ -1,0 +1,32 @@
+{
+  "name": "whatsabi-cli",
+  "version": "0.1.0",
+  "description": "Command-line frontend for WhatsABI",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shazow/whatsabi-cli.git"
+  },
+  "keywords": [
+    "evm",
+    "ethereum",
+    "cli"
+  ],
+  "author": "Andrey Petrov <shazow.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shazow/whatsabi-cli/issues"
+  },
+  "homepage": "https://github.com/shazow/whatsabi-cli#readme",
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "ts-command-line-args": "^2.5.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@shazow/whatsabi": "^0.5.0"
+  }
+}
